@@ -1,42 +1,22 @@
-Webpack + TypeScript starter
----
+# Паттерны проектирования - Фабрика
 
-![example](https://juristr.com/blog/assets/imgs/meetup-intro-angular2/transpiling.png)
+ToDo
 
-Это далеко не самый сложный starter kit. Цель его состоит в том, чтобы получить простейшую возможную настройку для работы с Webpack и TypeScript. Развернув себе этот репозиторий, вы сможете дополнить теми инструментами, которые вам нужны, например, SASS-компиляцию, Gzip, Brotli-компрессию, дополнить тестами свое окружение.
+## Требования для запуска:
 
-## Features
+* Стабильная версия node: v12.18.0+
+* Стабильная версия npm: 6.14.4+
 
-- [x] Webpack
-- [x] TypeScript compilation
-- [x] ts-lint
-- [x] Webpack Development Server
-- [x] Karma and Jasmine test execution
+## Первый запуск
 
-## How to use
+Для запуска проекта можно воспользоваться командой `npm i` или если есть интеграция в IDE, то `npm run install`, что является аналогом.
 
-Просто склонируйте репозиторий, а дальше:
+## Команды 
 
-```bash
-# Переходим в директорию с проектом
-$ cd <your-project-name>
+* `npm run serve` - Запуск сборки приложения и веб-сервера
+* `npm run build` - Сборка приложения без минификации
+* `npm run build:prod` - Сборка приложения с минификацией
 
-# Удаляем `.git` директорию
+### О стартере
 
-# Установка зависимостей
-$ npm i
-$ # or
-$ yarn
-
-# Запуск сборки приложения и веб-сервера:
-$ npm serve
-
-# Сборка приложения без минификации: 
-$ npm run build
-
-# Сборка приложения с минификацией: 
-$ npm run build:prod
-
-# Запуск тестов
-$ npm run test
-```
+За основу проекта был взят стартер https://github.com/Angular-RU/webpack-typescript-starter

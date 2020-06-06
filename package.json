@@ -6,13 +6,13 @@
         "serve": "webpack-dev-server --progress --color",
         "build": "webpack -w",
         "build:prod": "cross-env NODE_ENV=production webpack",
-        "test": "karma start"
+        "install": "npm i"
     },
     "keywords": [
         "webpack",
         "typescript"
     ],
-    "author": "Ivanov Max",
+    "author": "Омельницкий Сергей",
     "license": "ISC",
     "devDependencies": {
         "@types/jasmine": "2.8.6",
